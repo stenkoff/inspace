@@ -1,12 +1,12 @@
-# Sinuous
+## Sinuous
 
-## Background
+### Background
 A game built in javascript with the goal of staying alive as long as possible in order to achieve a high score.
 1. Stay alive.
 2. Avoid colliding with the red dots.
 3. Capture other colored dots to get temporary boosts, such as invulnerability.
 
-## Functionality & MVP
+### Functionality & MVP
 With this rendition of sinuous, users will be able to:
 * Dodge red dots by scrolling
 * Capture boosts by colliding with non-red dots
@@ -16,12 +16,12 @@ In addition, this project will include:
 * An About modal describing rules of the game, including a legend denoting the significance of the various dots.
 * A production README
 
-## Wireframes
+### Wireframes
 This app will consist of a single screen with game board and nav links to Github, LinkedIn, and the About modal. Game controls will include Start, Stop, and Reset buttons as well as a mouse scrolling to move the player. The board will be a rectangle filled with moving red dots and a blue representation of the player in the center.
 
 ![wire-frame](./docs/sinuous.png)
 
-##Architecture and Technologies
+###Architecture and Technologies
 Sinuous will be implemented with the following Technologies:
 JavaScript: game logic
 jQuery: To manipulate DOM elements for menus and starting a new game instance.
@@ -32,7 +32,7 @@ game.js: this script will handle the background and many of the app's features, 
 player.js: this script will handle player construction and collision detection
 dot.js: this script will handle dot object construction and collision detection
 
-## Implementation Timeline
+### Implementation Timeline
 
 Day 1: Setup all necessary Node modules, including getting webpack up and running. Write a basic entry file and create the board and dot scripts outlined above.
 
