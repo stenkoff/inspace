@@ -1,0 +1,27 @@
+{
+  "name": "Sinuous",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stenkoff/Sinuous.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stenkoff/Sinuous/issues"
+  },
+  "homepage": "https://github.com/stenkoff/Sinuous#readme",
+  "dependencies": {
+    "webpack": "^3.0.0"
+  }
+}
