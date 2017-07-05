@@ -19,7 +19,7 @@ In addition, this project will include:
 # Wireframes
 This app will consist of a single screen with game board and nav links to Github, LinkedIn, and the About modal. Game controls will include Start, Stop, and Reset buttons as well as a mouse scrolling to move the player. The board will be a rectangle filled with moving red dots and a blue representation of the player in the center.
 
-[!'wire-frame']('../docs/sinuous.png')
+!['wire-frame']('../docs/sinuous.png')
 
 #Architecture and Technologies
 Sinuous will be implemented with the following Technologies:
