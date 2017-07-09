@@ -1,4 +1,5 @@
 ## Inspace
+[Live!](https://stenkoff.github.io/inspace/)
 
 ### Background
 A game built in javascript inspired by Sinuous with the goal of staying alive as long as possible in order to achieve a high score.
