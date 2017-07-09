@@ -23,5 +23,10 @@
   "homepage": "https://github.com/stenkoff/Sinuous#readme",
   "dependencies": {
     "webpack": "^3.0.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-preset-es2015": "^6.24.1"
   }
 }
