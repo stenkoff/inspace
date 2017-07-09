@@ -1,0 +1,111 @@
+html {
+  height: 100%;
+  width: auto;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Raleway', sans-serif;
+  flex-direction: column;
+}
+
+.header {
+  position: fixed;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  top: 0;
+}
+
+.header h1 {
+  color: white;
+  font-size: 36px;
+  letter-spacing: 5px;
+  font-family: 'LONDRINA SHADOW', cursive;
+  /*font-family: 'Bungee Outline', cursive;*/
+}
+
+#canvas-container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+#canvas {
+  color: white;
+  background-color: black;
+  margin-bottom: 20px;
+}
+
+#start {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 160px;
+  width: 200px;
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+
+#score {
+  margin-top: 25px;
+  top: 10px;
+  justify-content: center;
+}
+
+#footer {
+   color: black;
+   font-family: 'Raleway', sans-serif;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   width: 78%;
+   bottom: 20px;
+}
+
+#directions {
+  width: 80%;
+  text-align: left;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  list-style: initial;
+  color: black;
+}
+
+#directions h2 {
+  text-decoration: underline;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#git  {
+  height: 24px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+#angelco {
+  height: 24px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+#linkedin  {
+  height: 24px;
+  padding-right: 10px;
+}

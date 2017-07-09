@@ -2,17 +2,45 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>SINUOUS</title>
-      <link type='text/css' href='./css/main.css' rel='stylesheet'></link>
-      <style>
-         html, body, canvas {
-           padding: 0px;
-           margin: 0px;
-         }
-       </style>
+      <title>INSPACE</title>
+      <link type='text/css' href='./assets/css/reset.css' rel='stylesheet'></link>
+      <link type='text/css' href='./assets/css/main.css' rel='stylesheet'></link>
+      <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Londrina+Shadow" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Bungee+Outline" rel="stylesheet">
     </head>
     <script src="./lib/bundle.js"></script>
+
     <body>
-    <canvas id="canvas"></canvas>
+      <div class='header'>
+        <h1>inspace</h1>
+      </div>
+      <div class='header' id=score></div>
+
+      <section id='canvas-container'>
+        <canvas id="canvas"></canvas>
+        <div id='start'></div>
+      </section>
+
+      <section id='footer'>
+        <div id=directions>
+          <ul>
+            <h2>Directions</h2>
+            <li>- Avoid the red dots</li>
+            <li>- Get colorful power boosts</li>
+            <li>- Stay alive!</li>
+          </ul>
+        </div>
+
+        <div class='info'>
+          <h2>Stephanie Henkoff</h2>
+            <div class='links'>
+              <a href='https://linkedin.com/in/stephaniehenkoff'><img id='linkedin' src="assets/images/linkedin.png"></a>•
+              <a href='https://angel.co/stephanie-henkoff'><img id='angelco' src="assets/images/angellist.png"></a>•
+              <a href= 'https://github.com/stenkoff'><img id='git' src="assets/images/github.png"></a>
+            </div>
+        </div>
+      </section>
+
   </body>
 </html>
