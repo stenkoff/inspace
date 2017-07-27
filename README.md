@@ -2,41 +2,29 @@
 [Live!](https://stenkoff.github.io/inspace/)
 
 ### Background
-A game built in javascript inspired by Sinuous with the goal of staying alive as long as possible in order to achieve a high score.
-1. Stay alive.
-2. Avoid colliding with the red dots.
-3. Capture other colored dots to get temporary boosts, such as invulnerability.
+Inspace is a browser game inspired by the game Sinuous built entirely with JavaScript, HTML and CSS through object oriented programming. The goal of the game is to stay alive as long as possible in order to achieve a high score. Players can stay alive by avoiding collisions with the red dots. Players can capture other colored dots to get temporary power boosts, such as slowing the speed of the red dots.
 
-### Functionality & MVP
-With this rendition of inspace, users will be able to:
-* Dodge red dots by scrolling
-* Capture boosts by colliding with non-red dots
-* See number of lives, time, score and level for each round
-* Start, stop and reset buttons, and scrolling to control the game.
-In addition, this project will include:
-* An About modal describing rules of the game, including a legend denoting the significance of the various dots.
-* A production README
+![inspace](./assets/images/inspace.png)
 
-### Wireframes
-This app will consist of a single screen with game board and nav links to Github, LinkedIn, and the About modal. Game controls will include Start, Stop, and Reset buttons as well as a mouse scrolling to move the player. The board will be a rectangle filled with moving red dots and a blue representation of the player in the center.
+### Features
 
-![wire-frame](./docs/inspace.png)
+#### Canvas
+Inspace implements HTML5 canvas for precise pixel control and object rendering.
 
-###Architecture and Technologies
-Inspace will be implemented with the following Technologies:
-JavaScript: game logic
-jQuery: To manipulate DOM elements for menus and starting a new game instance.
-Webpack: to allow classes to work concurrently without using Require JS.
+![canvas](./assets/images/canvas.png)
+![draw](./assets/images/canvas_draw.png)
 
-In addition to the entry file, there will be three scripts involved in this project:
-game.js: this script will handle the background and many of the app's features, including player movements, game score and generating dots
-player.js: this script will handle player construction and collision detection
-dot.js: this script will handle dot object construction and collision detection
+#### Collision Detection
+Using HTML5 canvas and a distance formula, Inspace successfully checks for collisions between two dots by calculating if the distance between those objects is less than the sum of their radii.
 
-### Implementation Timeline
+![collision](./assets/images/collision.png)
 
-Day 1: Setup all necessary Node modules, including getting webpack up and running. Write a basic entry file and create the board and dot scripts outlined above.
+#### Mouse Position
+Inspace uses an event listener on the mouse to track and set the player's position based on the current mouse coordinates
 
-Day 2: Build out the Player object to connect to the Board object and render it on the board. Make the player moveable through scrolling within the game board.
+![position](./assets/images/player_pos.png)
 
-Day 3: Create controls for the game speed, strop, start, reset and other rendering features. Incorporate the collision logic and game scoring into the board rendering. Style the frontend, making it polished and professional.
+#### High Score
+The game keeps track of a high score using local storage, so the player's high score is saved during the browsers session even if the browser is refreshed.
+
+![high-score](./assets/images/high_score.png)
