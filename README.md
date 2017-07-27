@@ -3,7 +3,7 @@
 
 Inspace is an object-oriented browser game inspired by the game Sinuous built entirely with JavaScript, HTML and CSS. The goal of the game is to stay alive as long as possible in order to achieve a high score. Players can stay alive by avoiding collisions with the red dots. Players can capture other colored dots to get temporary power boosts, such as slowing the speed of the red dots.
 
-![inspace](./assets/images/inspace.png)
+![inspace](./assets/images/inspace_img.png)
 
 ## Features & Implementation
 
